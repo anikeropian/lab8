@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head><title>MVC Задачи</title></head>
+<body>
+    <h1>Список задач</h1>
+    <ul>
+        {% for task in tasks %}
+        <li>{{ task.id }}. {{ task.title }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
