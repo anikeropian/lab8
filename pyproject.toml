@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ani_calculator"
+version = "0.1.0"
+description = "Простой калькулятор для лабы"
+authors = [{name = "Керопян Ани", email = "anikeropan_2005@vk.com"}]
+readme = "README.md"
+requires-python = ">=3.8"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+py-modules = ["calculator", "api"]
